@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npx ci
+RUN npx install
 
 COPY . .
 
